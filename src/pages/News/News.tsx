@@ -15,8 +15,7 @@ const News: FC = () => {
   return (
     <>
       <h1>News</h1>
-      {error && <span>{error}</span>}
-      <NewsList news={news} />
+      {error ? <span>{error}</span> : <NewsList news={news} />}
     </>
   )
 }
