@@ -3,6 +3,8 @@ If you are not logged in, the profile page will redirect you to the login page
 where you need to enter your username and password. 
 At this stage, fake authorization has been implemented.
 
+[Project Demo](https://blog-seven-sable-69.vercel.app/)
+
 **In order for the application to work, you need to add an environment variable:**
 
 ```
