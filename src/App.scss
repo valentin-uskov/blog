@@ -1,0 +1,39 @@
+@import "./variables";
+
+button {
+  display: block;
+  padding: $spacing-regular;
+  background-color: $color-primary;
+  border: none;
+  border-radius: $border-radius;
+  outline: none;
+  opacity: 1;
+  font-family: inherit;
+  font-size: 1rem;
+  color: $color-text-light;
+  cursor: pointer;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+input {
+  display: block;
+  padding: $spacing-small $spacing-regular;
+  margin: $spacing-small 0 $spacing-large 0;
+  background-color: #ffffff;
+  border: 2px solid $color-primary;
+  border-radius: $border-radius;
+  outline: none;
+  opacity: 1;
+  font-family: inherit;
+  font-size: 1rem;
+  color: $color-text-dark;
+  transition: opacity .3s;
+
+  &:focus {
+    border-color: #67adc8;
+  }
+}

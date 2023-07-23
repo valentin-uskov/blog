@@ -1,0 +1,45 @@
+@import "../../variables";
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: $color-primary;
+  color: $color-text-light;
+
+  & > nav {
+    display: flex;
+    max-width: $max-width;
+    padding: $spacing-regular 0;
+    margin: 0 auto;
+  }
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $max-width;
+  padding: $spacing-large;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  padding: $spacing-large;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: $color-text-light;
+  transition: color .3s;
+
+  &:visited {
+    color: $color-text-light;
+  }
+
+  &:hover {
+    color: #ffe357;
+  }
+
+  &.activeLink {
+    color: #ff952d;
+  }
+}
+

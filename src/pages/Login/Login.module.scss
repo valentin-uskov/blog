@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: $spacing-huge;
+}
+
+.error {
+  padding: $spacing-regular;
+  color: $color-danger;
+}

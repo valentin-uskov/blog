@@ -86,6 +86,12 @@
         ],
         "react-hooks/exhaustive-deps": ["error", {
             "additionalHooks": "useDerivedState|useCancellableAsync"
+        }],
+        "no-param-reassign": ["error", {
+            "props": true,
+            "ignorePropertyModificationsFor": [
+                "state"
+            ]
         }]
     }
 }

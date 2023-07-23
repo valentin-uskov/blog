@@ -1,0 +1,8 @@
+{
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "firstName": "Admin",
+  "lastName": "Root",
+  "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti et illum inventore iste iure provident quo vel veritatis voluptate.",
+  "token": "eyJpZCI6IjEyM2U0NTY3LWU4OWItMTJkMy1hNDU2LTQyNjYxNDE3NDAwMCIsImZpcnN0TmFtZSI6IkFkbWluIiwibGFzdE5hbWUiOiJSb290IiwidG9rZW4iOiIiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.zT4nJjqraowDkQAxAYiMQR9vskbaLcTk_Fw0b-r0YEg"
+}
+

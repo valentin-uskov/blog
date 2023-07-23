@@ -5,17 +5,19 @@ import cn from 'classnames'
 import css from './Layout.module.scss'
 
 const Layout: FC = () => (
-  <div className={css.layout}>
+  <div>
     <header className={css.header}>
-      <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.linkActive) : css.link)} to="/">
-        На главную
-      </NavLink>
-      <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.linkActive) : css.link)} to="/news">
-        Новости
-      </NavLink>
-      <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.linkActive) : css.link)} to="/profile">
-        Профиль
-      </NavLink>
+      <nav>
+        <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.activeLink) : css.link)} to="/">
+          Home
+        </NavLink>
+        <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.activeLink) : css.link)} to="/news">
+          News
+        </NavLink>
+        <NavLink className={({ isActive }) => (isActive ? cn(css.link, css.activeLink) : css.link)} to="/profile">
+          Profile
+        </NavLink>
+      </nav>
     </header>
     <div />
     <main className={css.main}>
